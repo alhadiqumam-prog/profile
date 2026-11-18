@@ -1,156 +1,192 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Profile</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
 
-  <body class="page">
-    <header class="hero">
-      <div class="profile-content">
-        <span class="badge">Web Profile</span>
-        <h1 id="text1" class="judul judul-besar">umam alhdiq</h1>
-        <p id="text2" class="judul">
-          Saya seorang siswa MAN 3 Tulungagung yang sedang belajar Rekayasa
-          Perangkat Lunak (RPL)
-        </p>
-      </div>
-      <img class="profile-photo" src="https://i.pinimg.com/474x/11/bc/16/11bc16ddf9be60aec58989dea1317d94.jpg" alt="photo profile" />
-    </header>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <main class="content-grid">
-      <section class="card">
-        <h2>Hobi</h2>
-        <ul class="hobby-list">
-          <li>Berenang</li>
-          <li>Badminton</li>
-          <li>Memasak</li>
-        </ul>
-      </section>
+    <title>Web Profile - Umam Alhadiq</title>
 
-      <section class="card">
-        <h2>Media Sosial</h2>
-        <div class="social-links">
-          <a href="#"> Youtube </a>
-          <a href="#">Instagram</a>
-          <a href="#">Tiktok</a>
-        </div>
-      </section>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-      <section class="card form-card">
-        <h2>Kontak</h2>
-        <form>
-          <div class="field-group">
-            <label>Nama:</label>
-            <input type="text" placeholder="Masukkan nama anda!" />
-          </div>
-          <div class="field-group">
-            <label>Pesan</label>
-            <textarea rows="4" placeholder="Masukkan pesan anda!"></textarea>
-          </div>
-          <button type="submit">Kirim Pesan</button>
-        </form>
-      </section>
+    <div class="page">
 
-      <section class="card schedule-card">
-        <h2>Jadwal Pelajaran</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Hari</th>
-              <th>Mata Pelajaran</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td rowspan="3">Senin</td>
-              <td>sosiologi</td>
-            </tr>
-            <tr>
-              <td>Bahasa Inggris</td>
-            </tr>
-            <tr>
-              <td>biologi</td>
-            </tr>
-            <tr>
-              <td>sejarah islam</td>
-              </tr>
-              <tr>
-                <td>informatika</td>
-                </tr>
-                <tr>
-                  <td>akidah akhlak</td>
-                </tr>
-                <tr>
-              <td rowspan="2">Selasa</td>
-              <td>penjaskes</td>
-            </tr>
-            <tr>
-              <td>kimia</td>
-            </tr>
-            <tr>
-              <td>matematika</td>
-              </tr>
-              <tr>
-                <td>sejarah</td>
-              </tr>
-              <tr>
-                <td>pendidikan pancasila</td>
-              </tr>
-              <tr>
-                <td>bahasa indonesia</td>
-              </tr>
-              <tr>
-              <td rowspan="3">Rabu</td>
-              <td>alquran hadits</td>
-            </tr>
-            <tr>
-              <td>matemtika tka</td>
-            </tr>
-            <tr>
-              <td>Bahasa arab</td>
-            </tr>
-            <tr>
-              <td>rekayasa perangkat lunak</td>
-              </tr>
-              <tr>
-              <td rowspan="3">Kamis</td>
-              <td>fiqih</td>
-            </tr>
-            <tr>
-              <td>fisika</td>
-            </tr>
-            <tr>
-              <td>matemtika</td>
-            </tr>
-            <tr>
-              <td>ekonomi</td>
-              </tr>
-              <tr>
-                <td>bahasa arab</td>
-              </tr>
-              <tr>
-              <td rowspan="4">Jumat</td>
-              <td>geografi</td>
-            </tr>
-            <tr>
-              <td>koding</td>
-            </tr>
-            <tr>
-              <td>bahasa indonesia</td>
-            </tr>
-            <tr>
-              <td>seni budaya</td>
-            </tr>
-            <tr>
-              <td>bahasa inggris</td>
-              </tr>
-              <tr>
-          </tbody>
-        </table>
-      </div>
-    </body>
-    
-    <html>
+        <!-- HEADER / PROFILE -->
+        <header class="hero">
+            <div class="profile-content">
+                <span class="badge">Web Profile</span>
+
+                <h1 class="judul-besar">Umam Alhadiq</h1>
+
+                <p class="intro">
+                    Saya seorang siswa MAN 3 Tulungagung yang sedang
+                    belajar Rekayasa Perangkat Lunak (RPL).
+                </p>
+            </div>
+
+            <img
+                class="profile-photo"
+                src="https://i.pinimg.com/474x/11/bc/16/11bc16ddf9be60aec58989dea1317d94.jpg"
+                alt="Foto profil"
+            >
+        </header>
+
+        <!-- MAIN CONTENT -->
+        <main class="content-grid">
+
+            <!-- HOBI -->
+            <section class="card">
+                <h2>Hobi</h2>
+
+                <ul class="hobby-list">
+                    <li>Berenang</li>
+                    <li>Badminton</li>
+                    <li>Memasak</li>
+                </ul>
+            </section>
+
+            <!-- SOCIAL MEDIA -->
+            <section class="card">
+                <h2>Media Sosial</h2>
+
+                <div class="social-links">
+                    <a href="#">YouTube</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">TikTok</a>
+                </div>
+            </section>
+
+            <!-- CONTACT FORM -->
+            <section class="card form-card">
+                <h2>Kontak</h2>
+
+                <form id="contact-form">
+
+                    <div class="field-group">
+                        <label for="nama">Nama:</label>
+                        <input
+                            type="text"
+                            id="nama"
+                            name="nama"
+                            placeholder="Masukkan nama Anda"
+                            required
+                        >
+                    </div>
+
+                    <div class="field-group">
+                        <label for="pesan">Pesan:</label>
+                        <textarea
+                            id="pesan"
+                            name="pesan"
+                            rows="4"
+                            placeholder="Masukkan pesan Anda"
+                            required
+                        ></textarea>
+                    </div>
+
+                    <button type="submit">Kirim Pesan</button>
+
+                    <p id="status-pesan"></p>
+                </form>
+            </section>
+
+            <!-- SCHEDULE -->
+            <section class="card schedule-card">
+                <h2>Jadwal Pelajaran</h2>
+
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Hari</th>
+                                <th>Mata Pelajaran</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <!-- SENIN -->
+                            <tr>
+                                <td rowspan="6">Senin</td>
+                                <td>Sosiologi</td>
+                            </tr>
+                            <tr><td>Bahasa Inggris</td></tr>
+                            <tr><td>Biologi</td></tr>
+                            <tr><td>Sejarah Islam</td></tr>
+                            <tr><td>Informatika</td></tr>
+                            <tr><td>Akidah Akhlak</td></tr>
+
+                            <!-- SELASA -->
+                            <tr>
+                                <td rowspan="6">Selasa</td>
+                                <td>Penjaskes</td>
+                            </tr>
+                            <tr><td>Kimia</td></tr>
+                            <tr><td>Matematika</td></tr>
+                            <tr><td>Sejarah</td></tr>
+                            <tr><td>Pendidikan Pancasila</td></tr>
+                            <tr><td>Bahasa Indonesia</td></tr>
+
+                            <!-- RABU -->
+                            <tr>
+                                <td rowspan="4">Rabu</td>
+                                <td>Alquran Hadits</td>
+                            </tr>
+                            <tr><td>Matematika TKA</td></tr>
+                            <tr><td>Bahasa Arab</td></tr>
+                            <tr><td>Rekayasa Perangkat Lunak</td></tr>
+
+                            <!-- KAMIS -->
+                            <tr>
+                                <td rowspan="5">Kamis</td>
+                                <td>Fiqih</td>
+                            </tr>
+                            <tr><td>Fisika</td></tr>
+                            <tr><td>Matematika</td></tr>
+                            <tr><td>Ekonomi</td></tr>
+                            <tr><td>Bahasa Arab</td></tr>
+
+                            <!-- JUMAT -->
+                            <tr>
+                                <td rowspan="5">Jumat</td>
+                                <td>Geografi</td>
+                            </tr>
+                            <tr><td>Koding</td></tr>
+                            <tr><td>Bahasa Indonesia</td></tr>
+                            <tr><td>Seni Budaya</td></tr>
+                            <tr><td>Bahasa Inggris</td></tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <p>&copy; 2026 Umam Alhadiq | Web Profile</p>
+        </footer>
+
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        const form = document.getElementById("contact-form");
+        const statusPesan = document.getElementById("status-pesan");
+
+        form.addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            const nama = document.getElementById("nama").value;
+
+            statusPesan.textContent =
+                "Terima kasih, " + nama + "! Pesan berhasil diisi.";
+
+            form.reset();
+        });
+    </script>
+
+</body>
+</html>
